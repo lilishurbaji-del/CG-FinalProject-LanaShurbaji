@@ -12,3 +12,24 @@ Arrow Right → Move right
 Arrow Left → Move left
 Mouse:
 Mouse movement controls the camera direction (look around)
+# Build Instructions
+To compile and run the project, follow these steps:
+1. Requirements
+Visual Studio (C++ Development Tools)
+OpenGL libraries:
+GLFW
+GLEW
+GLM
+2. Setup
+Open the project in Visual Studio.
+Ensure all source files are included in the project.
+Make sure shader and asset folders (if used) are in the correct directory.
+3. Linking Libraries
+Link the required libraries in the project settings:
+glfw3.lib
+glew32s.lib
+opengl32.lib
+Also, add include and library directories for GLFW, GLEW, and GLM.
+4. Run the Project
+Set the project as Startup Project.
+Run using Local Windows Debugger.
